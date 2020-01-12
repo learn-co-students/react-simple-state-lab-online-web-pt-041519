@@ -4,7 +4,7 @@ import Cell from './Cell'
 export default class Matrix extends Component {
   
   genRow = (vals) => (
-    vals.map(val => <Cell color={val} />)
+    vals.map(val => <Cell props={val} />)
   )
   
   genMatrix = () => (
