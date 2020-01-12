@@ -4,7 +4,8 @@ import Cell from './Cell'
 export default class Matrix extends Component {
   
   genRow = (vals) => (
-    vals.map(val => <Cell props={val} />)
+    console.log(vals)
+    // vals.map(val => <Cell props={val} />)
   )
   
   genMatrix = () => (
